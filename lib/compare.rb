@@ -1,3 +1,3 @@
 def compare(a, b)
-  p a.map { |e| e*2 } == b
+  a.map { |e| e**2 }.sum == b.sum
 end
